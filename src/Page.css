@@ -1,6 +1,7 @@
 .page-cards {
-  color: blue;
+  margin-top: 10%;
   width: 30%;
-  display: inline-block;
+  display: inline-flex;
   margin-left: 2%;
+  padding: 10%;
 }

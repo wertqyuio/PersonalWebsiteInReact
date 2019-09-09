@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <header>Chris Chen's Homepage</header>
-      <Page title="About me"></Page>
-      <Page title="Contact"></Page>
-      <Page title="Projects"></Page>
+        <Page title="About Me"></Page>
+        <Page title="Contact"></Page>
+        <Page title="Projects"></Page>
     </div>
   );
 }
