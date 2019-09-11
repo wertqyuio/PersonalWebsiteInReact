@@ -8,7 +8,6 @@ class Page extends Component {
     return (
       <Card className="col-4 page-cards">
         <Card.Title>{this.props.title}</Card.Title>
-        <Card.Text>Random text</Card.Text>
       </Card>
     )
   }

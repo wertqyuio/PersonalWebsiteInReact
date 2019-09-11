@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: ghostwhite;
+  height: 100vh;
 }
 
 .App-logo {
@@ -30,4 +32,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.homepage {
+  color: steelblue;
+  justify-content: center;
+  font-size: x-large;
+  padding: 5%;
+  margin-bottom: -7%;
+}
+
+.Background-Image {
+  height: 100%;
+  background-image: url("Piefaceshowdown.jpg");
+  background-size: cover;
+  z-index: -1;
 }
