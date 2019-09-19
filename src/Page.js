@@ -4,11 +4,14 @@ import './Page.css'
 
 
 class Page extends Component {
+
   render() {
     return (
-      <Card className="col-4 page-cards">
-        <Card.Title>{this.props.title}</Card.Title>
-      </Card>
+      <div className="Background-Image">
+        <Card className="page-cards">
+          <Card.Title>Welcome!</Card.Title>
+        </Card>
+      </div>
     )
   }
 }

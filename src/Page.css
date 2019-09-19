@@ -1,5 +1,4 @@
 .page-cards {
-  display: none;
   margin-top: 10%;
   width: 30%;
   display: inline-flex;
@@ -9,5 +8,32 @@
   color: steelblue;
   font-size: xx-large;
   border-radius: 5%;
-  background-color: ghostwhite;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.page-cards:hover {
+  background-color: black;
+  z-index: 1;
+  width: 50%;
+  transition: 1s;
+}
+
+div.Background-Image {
+  display: block;
+  position: relative;
+  height: 100%;
+}
+
+div.Background-Image::after {
+  content: "";
+  background: url("Piefaceshowdown.jpg");
+  background-size: cover;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
 }
