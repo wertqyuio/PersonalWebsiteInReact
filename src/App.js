@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
 import Page from './Page';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function App() {
   return (
     <div className="App">
-      <i className="fab fa-linkedin-in wertqyuio-li"></i>
+      <span className="wertqyuio-li">LinkedIn?
+        <FontAwesomeIcon icon="coffee" />
+      </span>
+      <Page></Page>
     </div>
   );
 }
