@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Card } from 'react-bootstrap';
-import './Page.css'
+import './Center.css'
 
 
-class Page extends Component {
+class Center extends Component {
 
   render() {
     return (
       <div className="Background-Image">
-        <Card className="page-cards">
+        <Card className="center-cards">
           <h1 className="titular-name">Chris Chen</h1>
         </Card>
       </div>
@@ -16,4 +16,4 @@ class Page extends Component {
   }
 }
 
-export default Page;
+export default Center;

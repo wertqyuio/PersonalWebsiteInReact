@@ -1,8 +1,9 @@
 .App {
   text-align: center;
-  background-color: ghostwhite;
+  background-color: whitesmoke;
   height: 100vh;
   font-size: 5vh;
+  font-family: 'Mountains of Christmas', cursive;
 }
 
 .App-logo {
@@ -59,25 +60,55 @@ div.Background-Image::after {
   right: 0;
   position: absolute;
   z-index: 1;   
-  border-top-left-radius: 25%;
+  border-top-left-radius: 36%;
+  border-bottom-right-radius: 24%;
 }
 
 .wertqyuio-li {
   position: absolute;
-  left: 1vh;
+  right: 1vh;
+  bottom: 0;
   z-index: 2;
 }
 
 .wertqyuio-li-2 {
   position: absolute;
-  left: 1vh;
-  top: 6vh;
+  right: 1vh;
+  bottom: 6vh;
   z-index: 2;
 }
 
 a {
-  padding-right: 1vh;
-  color: darkred;
+  padding-left: 1vh;
+  color: black;
+}
+
+.internal-links {
+  font-size: 3.2vh;
+  position: absolute;
+  left: 24vh;
+  top: 0;
+}
+
+.internal-links-2 {
+  font-size: 3.2vh;
+  position: absolute;
+  left: 14vh;
+  top: 3.5vh;
+}
+
+.internal-links-3 {
+  font-size: 3.2vh;
+  position: absolute;
+  left: 8vh;
+  top: 7vh;
+}
+
+.internal-links-4 {
+  font-size: 3.2vh;
+  position: absolute;
+  left: 2vh;
+  top: 10.5vh;
 }
 
 

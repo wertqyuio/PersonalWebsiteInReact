@@ -1,5 +1,5 @@
-.page-cards {
-  margin-top: 10%;
+.center-cards {
+  margin-top: 14%;
   width: 30%;
   display: inline-flex;
   margin-left: 1%;
@@ -13,7 +13,7 @@
   border: none;
 }
 
-.page-cards:hover {
+.center-cards:hover {
   background-color: transparent;
   color: transparent;
   z-index: 1;
