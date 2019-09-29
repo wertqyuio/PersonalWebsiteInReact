@@ -2,6 +2,7 @@
   text-align: center;
   background-color: ghostwhite;
   height: 100vh;
+  font-size: 5vh;
 }
 
 .App-logo {
@@ -58,12 +59,25 @@ div.Background-Image::after {
   right: 0;
   position: absolute;
   z-index: 1;   
-  border-top-left-radius: 30%;
+  border-top-left-radius: 25%;
 }
 
 .wertqyuio-li {
   position: absolute;
-  left: 0;
+  left: 1vh;
   z-index: 2;
 }
+
+.wertqyuio-li-2 {
+  position: absolute;
+  left: 1vh;
+  top: 6vh;
+  z-index: 2;
+}
+
+a {
+  padding-right: 1vh;
+  color: darkred;
+}
+
 
