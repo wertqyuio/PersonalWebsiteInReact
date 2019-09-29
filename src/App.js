@@ -5,7 +5,7 @@ import Page from './Page';
 function App() {
   return (
     <div className="App">
-      <Page></Page>
+      <i className="fab fa-linkedin-in wertqyuio-li"></i>
     </div>
   );
 }

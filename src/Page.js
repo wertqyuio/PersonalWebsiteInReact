@@ -9,7 +9,7 @@ class Page extends Component {
     return (
       <div className="Background-Image">
         <Card className="page-cards">
-          <Card.Title>Welcome!</Card.Title>
+          <h1 className="titular-name">Chris Chen</h1>
         </Card>
       </div>
     )

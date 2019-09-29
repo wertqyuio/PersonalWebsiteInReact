@@ -31,13 +31,13 @@
   }
   to {
     transform: rotate(360deg);
+    color: transparent;
+    font-size: 0;
   }
 }
 
 .homepage {
-  color: steelblue;
   justify-content: center;
-  font-size: x-large;
   padding: 5%;
   margin-bottom: -7%;
 }
@@ -52,11 +52,17 @@ div.Background-Image::after {
   content: "";
   background: url("Piefaceshowdown.jpg");
   background-size: cover;
-  opacity: 1;
+  opacity: 0.9;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
   z-index: 1;   
+  border-top-left-radius: 30%;
 }
+
+.wertqyuio-li {
+  position: absolute;
+}
+
