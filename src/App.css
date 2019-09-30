@@ -83,6 +83,14 @@ a {
   color: black;
 }
 
+.current-page {
+  font-size: 3.3vh;
+  position: absolute;
+  left: 1vh;
+  top: 1vh;
+  text-decoration: underline;
+}
+
 .internal-links {
   font-size: 3.2vh;
   position: absolute;

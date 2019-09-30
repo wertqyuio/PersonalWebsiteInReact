@@ -8,6 +8,8 @@ import InternalLink from './InternalLink';
 function App() {
   return (
     <div className="App">
+      <span className="current-page"><InternalLink whereabouts="HOME"></InternalLink>
+      </span>
       <span className="internal-links"><InternalLink whereabouts="portfolio"></InternalLink>
       </span>
       <span className="internal-links-2"><InternalLink whereabouts="contact"></InternalLink>
