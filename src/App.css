@@ -96,20 +96,23 @@ a {
   position: absolute;
   left: 24vh;
   top: 0;
+  z-index: 10;
 }
 
 .internal-links-2 {
   font-size: 3.2vh;
   position: absolute;
-  left: 14vh;
+  left: 17vh;
   top: 3.5vh;
+  z-index: 10;
 }
 
 .internal-links-3 {
   font-size: 3.2vh;
   position: absolute;
-  left: 8vh;
+  left: 10vh;
   top: 7vh;
+  z-index: 10;
 }
 
 .internal-links-4 {
@@ -117,6 +120,7 @@ a {
   position: absolute;
   left: 2vh;
   top: 10.5vh;
+  z-index: 10;
 }
 
 

@@ -1,17 +1,33 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import Center from './Center';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './Routes';
 import Navbar from './Navbar';
 import ExternalLinks from './ExternalLinks';
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar></Navbar>
-      <Center></Center>
-      <ExternalLinks></ExternalLinks>
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      current: "home"
+    }
+  }
+
+  componentDidMount() {
+    this.setState({ current: "home" })
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <BrowserRouter>
+          <Navbar/>
+          <Routes/>
+          <ExternalLinks/>
+        </BrowserRouter>
+      </div>
+    );
+  }
 }
 
 export default App;
