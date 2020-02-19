@@ -1,14 +1,9 @@
 import { createStore } from 'redux';
-const store = createStore(addTodo, ['Use Redux']);
+const INITIAL_STATE = { location: 0 }
+const store = createStore(locationReducer);
 
-function addTodo(text) {
-  return {
-    type: 'ADD_TODO',
-    text
-  }
+function locationReducer(state=INITIAL_STATE, action) {
+  return state;
 }
-
-store.dispatch(addTodo('Read the docs'))
-store.dispatch(addTodo('Read about the middleware'))
 
 export default store;

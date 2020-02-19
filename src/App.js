@@ -9,7 +9,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      current: "home"
+      current: this.props.location
     }
   }
 

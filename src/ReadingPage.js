@@ -10,11 +10,11 @@ export default class ReadingPage extends Component {
         <div className="Reading-Image">
           <ul>
             <p className="Titleist">Last Five Books that I've Read</p>
-            <li>Tiger Woods (9/28/19) </li>
-            <li>Delayed Rays of a Star (9/20)</li>
-            <li>The Goldfinch (9/12) </li>
-            <li>The Hell of Good Intentions (9/5)</li>
-            <li>The Laughing Monsters (8/17)</li>
+            <li>The Wheel of Time: Lord of Chaos (11/15)</li>
+            <li>No Happy Endings: A Memoir (12/12)</li>
+            <li>The Wheel of Time: A Crown of Swords (1/6)</li>
+            <li>The Years (2/1)</li>
+            <li>The Rodwell Files (2/14)</li>
           </ul>
         </div>
       </span>
