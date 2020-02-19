@@ -4,17 +4,15 @@ import { NavLink } from 'react-router-dom';
 
 class Navbar extends Component {
   static defaultProps = {
-    current: "home",
+    current: 0,
     locations: ["home", "portfolio", "about", "bridge", "reading"]
   };
 
   constructor(props) {
     super(props);
     this.state = {
-      current:
-        this.props.locations.filter(location => location === window.location.href.replace("http://localhost:3000/", "")).length === 1 ?
-          this.props.locations.filter(location => location === window.location.href.replace("http://localhost:3000/", "")) : "home"
-      , locations: this.props.locations.filter(location => location !== window.location.href.replace("http://localhost:3000/", ""))
+      current: this.props.locations[this.props.current], 
+      locations: this.props.locations.filter(location => location !== this.props.locations[this.props.current])
     };
   }
 

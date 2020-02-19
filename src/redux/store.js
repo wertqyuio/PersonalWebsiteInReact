@@ -1,5 +1,5 @@
 import { createStore } from 'redux';
-const store = createStore( ['Use Redux']);
+const store = createStore(addTodo, ['Use Redux']);
 
 function addTodo(text) {
   return {
