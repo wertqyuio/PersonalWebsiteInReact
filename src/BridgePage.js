@@ -9,7 +9,7 @@ export default class BridgePage extends Component {
       <span>
         <div className="Reading-Image">
             <p className="Titleist">Personal Bridge Links</p>
-            <span><a href="www.google.com">
+            <span><a href="https://www.google.com">
               National Championship Win</a></span>
             <span><a href="www.google.com">
               Bridge Winners Link</a></span>
