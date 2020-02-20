@@ -1,10 +1,10 @@
-div.Reading-Image {
+div.Bridge-Image {
   display: block;
   position: relative;
   height: 100%;
 }
 
-div.Reading-Image::after {
+div.Bridge-Image::after {
   content: "";
   background: antiquewhite;
   background-size: cover;
@@ -19,7 +19,7 @@ div.Reading-Image::after {
   border-bottom-right-radius: 24%;
 }
 
-div.Reading-Image ul {
+div.Bridge-Image ul {
   padding-top: 20vh;
   list-style: none;
 }

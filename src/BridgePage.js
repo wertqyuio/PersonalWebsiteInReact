@@ -7,18 +7,20 @@ export default class BridgePage extends Component {
   render() {
     return (
       <span>
-        <div className="Reading-Image">
-            <p className="Titleist">Personal Bridge Links</p>
-            <span><a href="https://www.google.com">
-              National Championship Win</a></span>
-            <span><a href="www.google.com">
-              Bridge Winners Link</a></span>
-            <span><a href="www.google.com">
-              Bridge Power Rating</a></span>
-            <span><a href="www.google.com">
-              Tournament Results</a></span>
-            <span><a href="www.google.com">
-              Club Results</a></span>
+        <div className="Bridge-Image">
+          <ul>
+            <p className="Titleist">Bridge Links</p>
+            <li><a href="http://youth.worldbridge.org/las-vegas-nabc-2019-gnt-flight-c-winners/">
+              National Championship Win!</a></li>
+            <li><a href="https://bridgewinners.com/profile/chris-chen/">
+              Bridge Winners Link</a></li>
+            <li><a href="https://www.bridgepowerratings.com/WEBPAGES/U506WEB/S3973182.htm">
+              Bridge Power Rating</a></li>
+            <li><a href="https://live.acbl.org/player-results/3973182">
+              Tournament Results</a></li>
+            <li><a href="https://my.acbl.org/club-results/my-results/3973182">
+              Club Results</a></li>
+          </ul>
         </div>
       </span>
     )
