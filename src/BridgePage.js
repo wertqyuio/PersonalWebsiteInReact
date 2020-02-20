@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Center from './Center';
 import ExternalLinks from './ExternalLinks';
-import "./ReadingPage.css"
+import "./BridgePage.css"
 
 export default class BridgePage extends Component {
   render() {

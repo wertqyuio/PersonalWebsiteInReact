@@ -1,0 +1,29 @@
+div.Reading-Image {
+  display: block;
+  position: relative;
+  height: 100%;
+}
+
+div.Reading-Image::after {
+  content: "";
+  background: antiquewhite;
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;  
+  border-top-left-radius: 36%;
+  border-bottom-right-radius: 24%;
+}
+
+div.Reading-Image ul {
+  padding-top: 20vh;
+  list-style: none;
+}
+
+.Titleist {
+  text-decoration: underline;
+}
