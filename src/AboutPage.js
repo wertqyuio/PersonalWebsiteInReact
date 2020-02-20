@@ -8,12 +8,7 @@ export default class AboutPage extends Component {
     return (
       <span>
         <div className="Reading-Image">
-          <span>My name is Chris Chen and I'm currently a contract software</span>
-          <span>engineer for a charity, Center for Bridge Education. I enjoy</span>
-          <span>solving problems, reading, and playing bridge. I'm fairly serious</span>
-          <span>about 2 of the 3 above. On the top left, you can find more about</span>
-          <span>my bridge, and on the bottom right, you can find more about my</span>
-          <span>professional background.</span>
+          <span>My name is Chris Chen and I'm currently a contract software for a 501(c)(3) charity, Center for Bridge Education. I work on bridge related educational projects. In my spare time, I enjoy playing bridge, and reading.</span>
         </div>
       </span>
     )
