@@ -2,14 +2,14 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wertqyuio.github.io/PersonalWebsiteInReact",
+  "homepage": "https://wertqyuio.github.io/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/react-fontawesome": "^0.1.5",
     "bootstrap": "^4.3.1",
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^2.2.0",
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.12",
     "react-dom": "^16.9.0",
@@ -21,8 +21,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
