@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PersonalWebsiteInReact/static/css/main.d5e04be8.chunk.css",
-    "main.js": "/PersonalWebsiteInReact/static/js/main.dd20f643.chunk.js",
-    "main.js.map": "/PersonalWebsiteInReact/static/js/main.dd20f643.chunk.js.map",
-    "runtime~main.js": "/PersonalWebsiteInReact/static/js/runtime~main.87d6bfa0.js",
-    "runtime~main.js.map": "/PersonalWebsiteInReact/static/js/runtime~main.87d6bfa0.js.map",
-    "static/js/2.8ec9057a.chunk.js": "/PersonalWebsiteInReact/static/js/2.8ec9057a.chunk.js",
-    "static/js/2.8ec9057a.chunk.js.map": "/PersonalWebsiteInReact/static/js/2.8ec9057a.chunk.js.map",
-    "index.html": "/PersonalWebsiteInReact/index.html",
-    "precache-manifest.ba1e735c667d7782bded1c72e91ed5b8.js": "/PersonalWebsiteInReact/precache-manifest.ba1e735c667d7782bded1c72e91ed5b8.js",
-    "service-worker.js": "/PersonalWebsiteInReact/service-worker.js",
-    "static/css/main.d5e04be8.chunk.css.map": "/PersonalWebsiteInReact/static/css/main.d5e04be8.chunk.css.map",
-    "static/media/Center.css": "/PersonalWebsiteInReact/static/media/Piefaceshowdown.6080a2cf.jpg"
+    "main.css": "/static/css/main.61c53a3c.chunk.css",
+    "main.js": "/static/js/main.9d515903.chunk.js",
+    "main.js.map": "/static/js/main.9d515903.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.f8c881e2.js",
+    "runtime~main.js.map": "/static/js/runtime~main.f8c881e2.js.map",
+    "static/js/2.ec2fa5bf.chunk.js": "/static/js/2.ec2fa5bf.chunk.js",
+    "static/js/2.ec2fa5bf.chunk.js.map": "/static/js/2.ec2fa5bf.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b26afd85a3a832afeaf406d87112b7fd.js": "/precache-manifest.b26afd85a3a832afeaf406d87112b7fd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.61c53a3c.chunk.css.map": "/static/css/main.61c53a3c.chunk.css.map",
+    "static/media/HomePage.css": "/static/media/Piefaceshowdown.6080a2cf.jpg"
   }
 }
