@@ -10,7 +10,7 @@ export default class BridgePage extends Component {
         <div className="Bridge-Image">
           <ul>
             <p className="Titleist">Bridge Links</p>
-            <li><a href="http://youth.worldbridge.org/las-vegas-nabc-2019-gnt-flight-c-winners/">
+            <li className="MacNab"><a href="http://youth.worldbridge.org/las-vegas-nabc-2019-gnt-flight-c-winners/">
               National Championship Win!</a></li>
             <li><a href="https://bridgewinners.com/profile/chris-chen/">
               Bridge Winners Link</a></li>

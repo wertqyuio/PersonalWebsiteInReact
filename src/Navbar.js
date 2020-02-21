@@ -17,7 +17,6 @@ class Navbar extends Component {
   }
 
   render() {
-    alert(this.state.locations)
     return (
       <nav>
         <InternalLink futurestyle="current-page" whereabouts={this.state.current}></InternalLink>
